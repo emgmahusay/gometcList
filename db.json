@@ -1,0 +1,1413 @@
+{
+
+  "asset": [
+    {
+      "name": "Anchor",
+      "displayName": "Anchor",
+      "connectionStringName": "AnchorChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "5e01ab94-da4b-4341-a2f0-51126fa40c48",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "ARMT",
+      "displayName": "ARMT",
+      "connectionStringName": "ARMTChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "36319ae7-a5e0-42ed-adaa-6db9ade9c88e",
+      "isVisible": false,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "BigFoot",
+      "displayName": "BigFoot",
+      "connectionStringName": "BigFootChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "cf1e2359-39d8-478e-9d66-5ada518b1503",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "BlindFaith",
+      "displayName": "Blind Faith",
+      "connectionStringName": "BlindFaithChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "accac67c-d481-4b0b-9e74-b470cdac6e16",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "Buckskin",
+      "displayName": "Buckskin",
+      "connectionStringName": "BuckskinChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "1cee56cc-d44a-4967-b9ab-5b5f2ce640aa",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "CaesarTonga",
+      "displayName": "Caesar Tonga",
+      "connectionStringName": "CaesarTongaChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "2cfc5b06-b529-4e58-b31a-5105b350e47b",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "JSM",
+      "displayName": "JSM",
+      "connectionStringName": "JSMChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502",
+      "appAssetGroup": "50af87a1-e0d0-47e4-962b-8c91cc6dd1c6",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "MadDog",
+      "displayName": "MadDog",
+      "connectionStringName": "MadDogChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "4487f446-cd98-4d94-a1e0-f7242bd616fb",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "Moccasin",
+      "displayName": "Moccasin",
+      "connectionStringName": "MoccasinChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "3f623a40-cce3-44f8-a688-47e86cd1d5e2",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "Perdido",
+      "displayName": "Perdido",
+      "connectionStringName": "PerdidoChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "182c06c5-19d4-4201-923e-4ea9b925db55t",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "Tahiti",
+      "displayName": "Tahiti",
+      "connectionStringName": "TahitiChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "101ef945-9483-4074-a366-5b8e1a215f4f",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "Petronius",
+      "displayName": "Petronius",
+      "connectionStringName": "PetroniusChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "9b16b12e-260e-4077-a868-46d82cfb1464",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "Stampede",
+      "displayName": "Stampede",
+      "connectionStringName": "StampedeChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "8c1bf800-bc59-4466-8fdf-bd95a0f6289dt",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "Tigris",
+      "displayName": "Tigris",
+      "connectionStringName": "TigrisChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "9c80b6b3-ebd8-414e-9e7a-58a4d367173d",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "TubularBells",
+      "displayName": "Tubular Bells",
+      "connectionStringName": "TubularBellsChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "40f29735-4cd8-4183-9215-af320e6b023ft",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    },
+    {
+      "name": "WCD",
+      "displayName": "WCD",
+      "connectionStringName": "WCDChevronIamConnectionString-PROD",
+      "appAdminGroup": "8016f63a-7575-4f23-a476-566c2fb61c67,60eb2794-e5fc-4eab-a3fd-3287751a502c",
+      "appAssetGroup": "3c25880d-83f3-4e71-bdce-772f6a7311e1",
+      "isVisible": true,
+      "assetModelType": [
+        {
+          "modelTypeID": "A3119BE7-F861-45D8-B2BF-CCBDF9EF53CD",
+          "name": "CHEARS",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_ChearsModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C9E8D35C-B57E-4D1C-9C01-86F40EDEEF77",
+          "name": "REVEAL",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_RevealModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "608E61E7-57C0-4683-AAD7-55EB969151D5",
+          "name": "ECLIPSE",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_EclipseModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "023DFB89-D2BB-47FE-A40E-9B7CA7E4BDC9",
+          "name": "INTERSECT",
+          "rootNode": "Reservoir Simulation Models",
+          "storProcName": "Model_Summary_IntersectModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C38A14BC-0A59-4B4B-A6E6-29FD14367E74",
+          "name": "GAP",
+          "rootNode": "Network Models",
+          "storProcName": "Model_Summary_GapModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB1BB",
+          "name": "MBAL",
+          "rootNode": "Tank Models",
+          "storProcName": "Model_Summary_MbalModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "7FBE4D77-45CC-4318-A32B-65C19DFDB2CC",
+          "name": "PROSPER",
+          "rootNode": "Well Models",
+          "storProcName": "Model_Summary_ProsperModels_Read",
+          "isVisible": false
+        },
+        {
+          "modelTypeID": "FA02D314-8643-4646-9205-F2014B50DEB3",
+          "name": "RESOLVE",
+          "rootNode": "Field Models",
+          "storProcName": "Model_Summary_ResolveModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "C49B87EE-1ED1-4A4A-96E5-0C30B03A27EA",
+          "name": "GOCAD",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_GocadModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "1E7E86EC-A7B3-43E0-B34B-6B4E362B3811",
+          "name": "PETREL",
+          "rootNode": "Earth Models",
+          "storProcName": "Model_Summary_PetrelModels_Read",
+          "isVisible": true
+        },
+        {
+          "modelTypeID": "F87DBCCA-11C5-467C-A644-38CAADB4CD81",
+          "name": "Decline Curves",
+          "rootNode": "Performance Curves",
+          "storProcName": "Model_Summary_DeclineCurves_Read",
+          "isVisible": true
+        }
+      ],
+      "selectedFilterDecisionFrameIds": null
+    }
+  ]
+}
